@@ -1,4 +1,4 @@
-# PREDICTING H1N1 VACCINES
+# H1N1 Vaccination Rate Analysis
 ## Overview
 Author: Roseline Maina
 
@@ -11,7 +11,7 @@ Since data on Covid-19 is not readily available, The medical organization wants 
 
 1. if more people got vaccinated or not vaccinated
 2. which age group is most likely to get vaccinated, 
-3. the impact a doctors reccomendation has on a respondent's decision on whether to get vaccinated or not 
+3. the impact a doctors recommendation has on a respondent's decision on whether to get vaccinated or not 
 4. the distribution of vaccination by gender. 
 5. They also want you to come up with an algorithm that can predict whether someone got the H1N1 vaccine. 
 
@@ -40,23 +40,23 @@ The distribution of the vaccinated by sex/gender showed that female respondents 
 ### Which Age Group is most likely to get vaccinated
 ![Age Group](https://user-images.githubusercontent.com/100761559/182145111-8e7351d5-2932-461e-a03f-5fcd61800b47.png)
 
-from the age groups we saw that individual who were aged 65 years and above had the highest number of vaccinated and at the same time unvaccinated respondents, while the individuals aged betwen 35-44 years had the lowest number of vaccinated and unvaccinated respondents. from this i'd recommend that further investigation should be done to understand the underlying reasons behind individuals between the ages od 35-44 years not taking part in vaccination. Based on the results its clear that individuals aged between 65 years and above are the most likely to get vaccinated.
+from the age groups we saw that individual who were aged 65 years and above had the highest number of vaccinated and at the same time unvaccinated respondents, while the individuals aged betwen 35-44 years had the lowest number of vaccinated and unvaccinated respondents. Based on the results its clear that individuals aged between 65 years and above are the most likely to get vaccinated.
 
 ### Impact of a Doctor's Recommendation when Determining Whether to get Vaccinated
 ![Impact of a doctors recommendation when deciding to get vaccinated](https://user-images.githubusercontent.com/100761559/182145155-4e4a1434-688f-4670-8111-c3e88a27a63d.png)
 
-We also saw that a doctors recommendation has little impact in a respondents decision on whether to get vaccinated or not as there was only a slight difference between the vaccinated and unvaccinated responsdent's who got a doctor's recommendation. But this may not be truly representative as from the respondents that took part in the survey 21,298 of them didnot get a doctors recommendation while only 5408 got a doctors recommendation.
+We also saw that a doctor's recommendation has little impact in a respondents decision on whether to get vaccinated or not as there was only a slight difference between the vaccinated and unvaccinated respondent's who got a doctor's recommendation. But this may not be truly representative as from the respondents that took part in the survey 21,298 of them did not get a doctors recommendation with only 5408 respondents getting a doctor's recommendation.
 
 ## Data Modeling
 For the data modeling, i built and evaluated classification models on Logistic Regression, Decision trees and K-Nearest Neighbors.
 The evaluation metrics i used in my modeling were the accuracy score and the AUC score. The accuracy score tells us what percentage of the predictions will our model get right while the auc score tells us about the performance of the model (a measure of separability) by telling us how good our model is when it comes to distinguishing between classes.
 1. The KNN models accuracy scores showed that the model was overfitting as we were getting better scores on the training and performing poorly on the testing. we got an AUC score of 73% for the baseline knn model and 72% for the final model.
-2. The decision tree models accuracy scores also showe that the model was overfitting as we were getting better scores on the training and performing poorly on the testing. We got an AUC score of 64% for the baseline decision tree model this gave the worst AUC score while a score of 78% for the final decision tree model this gave the second best AUC score.
+2. The decision tree models accuracy scores also showed that the model was overfitting as we were getting better scores on the training and performing poorly on the testing. We got an AUC score of 64% for the baseline decision tree model this gave the worst AUC score while a score of 78% for the final decision tree model this gave the second best AUC score.
 3. The Logistic regression model gave accuracy scores that were coomparable with there only being a difference of 0.002 between the train score and the test score.It also gave us the highest AUC score of 82%.
 
 ### Final Model
 When building the final model, the metric i picked to use when choosing the model to fit the final model on was the AUC scores. The model that provided the best AUC score was Logistic regression model. 
-The final model gave an accuracy score of 83% meaning that our model will be able to predict accurately whether someone got vaccinated or did not get vaccinated 83% of the time.
+The final model gave an accuracy score of 83% meaning that our model will be able to get 83% of the predictions (on whether someone got vaccinated or did not get vaccinated) right.
 ![final logistic model](https://user-images.githubusercontent.com/100761559/182155162-0cfd2692-e760-4f56-b6bc-389acb9a7802.png)
 
 We got an AUC score of 84%. Based on these results the model was performing well as based on the AUC score there is a 84% chance that out model will be able to distinguish between people who got vaccinated and the people who did not get vaccinated
@@ -76,12 +76,4 @@ Please review the full analysis in my Jupyter Notebook or presentation.
 
 Roseline Maina: mainaroselne@gmail.com
 
-
-## Project Structure
-
-├── Data                          
-├── Images  
-├── README.md         
-├── Project.ipynb
-
-│               
+              
