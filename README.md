@@ -1,5 +1,7 @@
 # PREDICTING H1N1 VACCINES
 ## Overview
+Author: Roseline Maina
+
 ![MD_Anderson_01](https://user-images.githubusercontent.com/100761559/182134640-d1480c05-f10c-4f0e-ae16-a7843a13960b.jpg)
 
 Our Client is a medical organization situated in Reno,Nevada. The organization works hand in hand with the government when it comes to the distribution of medical supplies including vaccines within the Reno city in Nevada. From the recent outbreak of the Corona Virus and the recent developments which led to the discovery of the vaccine,the organization wants to get a better understanding of how the general population will respond to the vaccine and how likely individuals are to get vaccinated.
@@ -28,14 +30,22 @@ For the analysis i performed Exploratory analysis, built and evaluated some clas
 ### The Distribution of the Target Labels
 ![Distribution of Target Labels](https://user-images.githubusercontent.com/100761559/182145071-99891081-f317-401a-b857-74888b3af0cb.png)
 
+The distribution of the target labels showed us that a large number of the respondents did not get vaccinated while the rest did get vaccinated. The difference between the vaccinated and unvaccinated individuals being significantly large. With 78% of the data in the target variable representing respondents that did not get vaccinated.
+
 ### Distribution of vaccinated by Gender
 ![Distribution of vaccinated by Gender](https://user-images.githubusercontent.com/100761559/182145087-b754af37-f9bf-4b1f-b1f7-6b6bb7fdb90e.png)
+
+The distribution of the vaccinated by sex/gender showed that female respondents had the highest number of unvaccinated respondents when compared to male and at the same time female respondents had the highest number of vaccinated respondents than male
 
 ### Which Age Group is most likely to get vaccinated
 ![Age Group](https://user-images.githubusercontent.com/100761559/182145111-8e7351d5-2932-461e-a03f-5fcd61800b47.png)
 
+from the age groups we saw that individual who were aged 65 years and above had the highest number of vaccinated and at the same time unvaccinated respondents, while the individuals aged betwen 35-44 years had the lowest number of vaccinated and unvaccinated respondents. from this i'd recommend that further investigation should be done to understand the underlying reasons behind individuals between the ages od 35-44 years not taking part in vaccination. Based on the results its clear that individuals aged between 65 years and above are the most likely to get vaccinated.
+
 ### Impact of a Doctor's Recommendation when Determining Whether to get Vaccinated
 ![Impact of a doctors recommendation when deciding to get vaccinated](https://user-images.githubusercontent.com/100761559/182145155-4e4a1434-688f-4670-8111-c3e88a27a63d.png)
+
+We also saw that a doctors recommendation has little impact in a respondents decision on whether to get vaccinated or not as there was only a slight difference between the vaccinated and unvaccinated responsdent's who got a doctor's recommendation. But this may not be truly representative as from the respondents that took part in the survey 21,298 of them didnot get a doctors recommendation while only 5408 got a doctors recommendation.
 
 ## Data Modeling
 For the data modeling, i built and evaluated classification models on Logistic Regression, Decision trees and K-Nearest Neighbors.
@@ -61,4 +71,17 @@ We got an AUC score of 84%. Based on these results the model was performing well
 ## Recommendation
 Based on the results i'd recommend that further investigation should be done to understand why a high number of individuals did not get vaccinated and understand the underlying reasons behind a doctor's recommendation not having a significant impact when deciding to get vaccinated, this i mmainly because the difference between the vaccinated and unvaccinated for the respondents that got vaccinated was only slight.
 
+## For More Information
+Please review the full analysis in my Jupyter Notebook or presentation.
+
+Roseline Maina: mainaroselne@gmail.com
+
+
 ## Project Structure
+
+├── Data                          
+├── Images  
+├── README.md         
+├── Project.ipynb
+
+│               
