@@ -46,5 +46,19 @@ The evaluation metrics i used in my modeling were the accuracy score and the AUC
 
 ### Final Model
 When building the final model, the metric i picked to use when choosing the model to fit the final model on was the AUC scores. The model that provided the best AUC score was Logistic regression model. 
+The final model gave an accuracy score of 83% meaning that our model will be able to predict accurately whether someone got vaccinated or did not get vaccinated 83% of the time.
+![final logistic model](https://user-images.githubusercontent.com/100761559/182155162-0cfd2692-e760-4f56-b6bc-389acb9a7802.png)
 
+We got an AUC score of 84%. Based on these results the model was performing well as based on the AUC score there is a 84% chance that out model will be able to distinguish between people who got vaccinated and the people who did not get vaccinated
+ 
+ ## Conclusion
+ From the results above:
+ 1. There was a high number of individuals who did not get vaccinated as 78% of the data in the target variable represented the respondents that did not get vaccinated
+ 2. The data showed that a doctors recommendation has little impact in a respondents decision on whether to get vaccinated or not vaccinated
+ 3. Individuals aged between 65 years and above are the most likely to get vaccinated.
+ 4. The female respondents had the highest number of unvaccinated respondents when compared to male and at the same time female respondents had the highest number of vaccinated respondents than male
 
+## Recommendation
+Based on the results i'd recommend that further investigation should be done to understand why a high number of individuals did not get vaccinated and understand the underlying reasons behind a doctor's recommendation not having a significant impact when deciding to get vaccinated, this i mmainly because the difference between the vaccinated and unvaccinated for the respondents that got vaccinated was only slight.
+
+## Project Structure
