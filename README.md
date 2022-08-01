@@ -15,6 +15,13 @@ Since data on Covid-19 is not readily available, The medical organization wants 
 
 From this they hope to get a better understanding of how these characteristics have been associated with personal vaccination patterns and will provide guidance for future public health efforts.
 
+## Data Understanding and Methodology
+For the project we were provided with data on over 10,000 individuals on over 10,000 individuals and the characteristics associated with personal vaccination patterns.
+Each row in the dataset represents one person who responded to the National 2009 H1N1 Flu Survey.The data was split into:
+
+- Training Features : This contained the training input/independent variables. It has 36 columns.
+- Training Labels : This contained the training target/dependant variables. It has 2 columns h1n1_vaccine and seasonal_vaccine of the binary variable types.In our anaysis i will be using the H1N1 vaccine target variable only.
+- Test Features: This contained the test input/independent variable. It has 36 columns. But there weren't any target/dependent variable for the test features
 
 
 
