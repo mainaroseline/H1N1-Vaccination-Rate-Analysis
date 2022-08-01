@@ -37,3 +37,14 @@ For the analysis i performed Exploratory analysis, built and evaluated some clas
 ### Impact of a Doctor's Recommendation when Determining Whether to get Vaccinated
 ![Impact of a doctors recommendation when deciding to get vaccinated](https://user-images.githubusercontent.com/100761559/182145155-4e4a1434-688f-4670-8111-c3e88a27a63d.png)
 
+## Data Modeling
+For the data modeling, i built and evaluated classification models on Logistic Regression, Decision trees and K-Nearest Neighbors.
+The evaluation metrics i used in my modeling were the accuracy score and the AUC score. The accuracy score tells us what percentage of the predictions will our model get right while the auc score tells us about the performance of the model (a measure of separability) by telling us how good our model is when it comes to distinguishing between classes.
+1. The KNN models accuracy scores showed that the model was overfitting as we were getting better scores on the training and performing poorly on the testing. we got an AUC score of 73% for the baseline knn model and 72% for the final model.
+2. The decision tree models accuracy scores also showe that the model was overfitting as we were getting better scores on the training and performing poorly on the testing. We got an AUC score of 64% for the baseline decision tree model this gave the worst AUC score while a score of 78% for the final decision tree model this gave the second best AUC score.
+3. The Logistic regression model gave accuracy scores that were coomparable with there only being a difference of 0.002 between the train score and the test score.It also gave us the highest AUC score of 82%.
+
+### Final Model
+When building the final model, the metric i picked to use when choosing the model to fit the final model on was the AUC scores. The model that provided the best AUC score was Logistic regression model. 
+
+
