@@ -22,5 +22,7 @@ Each row in the dataset represents one person who responded to the National 2009
 - Training Labels : This contained the training target/dependant variables. It has 2 columns h1n1_vaccine and seasonal_vaccine of the binary variable types.In our anaysis i will be using the H1N1 vaccine target variable only.
 - Test Features: This contained the test input/independent variable. It has 36 columns. But there weren't any target/dependent variable for the test features
 
+For the analysis i performed Exploratory analysis, built and evaluated some classification models
 
-
+## Exploratory Data Analysis
+### The Distribution of the Target Labels
