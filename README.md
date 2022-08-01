@@ -26,3 +26,14 @@ For the analysis i performed Exploratory analysis, built and evaluated some clas
 
 ## Exploratory Data Analysis
 ### The Distribution of the Target Labels
+![Distribution of Target Labels](https://user-images.githubusercontent.com/100761559/182145071-99891081-f317-401a-b857-74888b3af0cb.png)
+
+### Distribution of vaccinated by Gender
+![Distribution of vaccinated by Gender](https://user-images.githubusercontent.com/100761559/182145087-b754af37-f9bf-4b1f-b1f7-6b6bb7fdb90e.png)
+
+
+![Age Group](https://user-images.githubusercontent.com/100761559/182145111-8e7351d5-2932-461e-a03f-5fcd61800b47.png)
+
+Impact of a Doctor's Recommendation when Determining Whether to get Vaccinated
+![Impact of a doctors recommendation when deciding to get vaccinated](https://user-images.githubusercontent.com/100761559/182145155-4e4a1434-688f-4670-8111-c3e88a27a63d.png)
+
